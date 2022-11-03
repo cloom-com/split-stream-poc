@@ -4,7 +4,7 @@
 # Brain Power (2018)
 
 # Default stack name
-STACK_NAME="brain-power-fidgetology-demo"
+STACK_NAME="split-stream-poc-1"
 
 # Only regions with both Kinesis Video Stream and Rekognition service are supported
 SUPPORTED_REGIONS=("us-west-2" "us-east-1" "eu-west-1" "ap-northeast-1")

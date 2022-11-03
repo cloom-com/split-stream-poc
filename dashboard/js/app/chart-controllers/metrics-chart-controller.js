@@ -203,6 +203,7 @@ app.controller('MetricsChartController', ['$scope', '$http', '$timeout', '$filte
     };
 
     var handleNewRecords = function(event, records) {
+        console.log(records)
         records.forEach(function(record, index) {
             record.data.FaceSearchResponse.forEach((faceSearchResponse) => {
                 faceSearchResponse.DetectedFace = flatten(faceSearchResponse.DetectedFace);
